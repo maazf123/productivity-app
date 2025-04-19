@@ -1,9 +1,9 @@
 import { View, Text, StyleSheet } from 'react-native';
 
-export default function Screen() {
+export default function PlusScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>[Page Title]</Text>
+      <Text style={styles.text}>+ Add New</Text>
     </View>
   );
 }
