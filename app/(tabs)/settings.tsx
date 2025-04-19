@@ -1,9 +1,9 @@
 import { View, Text, StyleSheet } from 'react-native';
 
-export default function Screen() {
+export default function SettingsScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>[Settings]</Text>
+      <Text style={styles.title}>Settings Page</Text>
     </View>
   );
 }
@@ -11,12 +11,13 @@ export default function Screen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor: '#f0f4ff', // pale blue
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#ffd48a',
   },
-  text: {
-    fontSize: 24,
+  title: {
+    fontSize: 22,
     fontWeight: '600',
+    color: '#2a3f73', // soft dark blue
   },
 });
